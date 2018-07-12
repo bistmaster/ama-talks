@@ -15,7 +15,9 @@ Creator of NodeJs
 - Command line utility to install Node.js packages, do version management and dependency management of Node.js packages
 
 
+- Command Line Interface
 
+- Callback is an asynchronous equivalent for a function. A callback function is called at the completion of a given task.
 
 let helloStr = 'Hello';
 
@@ -23,7 +25,7 @@ setTimeout(function () {
     console.log('Hey There');
 }, 1000);
 
-console.log(string)
+console.log(helloStr)
 
 
 Output: ?
