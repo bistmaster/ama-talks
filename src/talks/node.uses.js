@@ -1,7 +1,7 @@
 NodeJS is good
 - Web application integrate with NoSQL
 - API 
-- CHAT 
+- CHAT or Real time applications.
 - Data Streaming 
 - 
 
