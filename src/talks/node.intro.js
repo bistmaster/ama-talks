@@ -17,17 +17,14 @@ Creator of NodeJs
 
 - Command Line Interface
 
-- Callback is an asynchronous equivalent for a function. A callback function is called at the completion of a given task.
-
-let helloStr = 'Hello';
-
-setTimeout(function () {
-    console.log('Hey There');
-}, 1000);
-
-console.log(helloStr)
+* Callback 
+- is an asynchronous equivalent for a function. A callback function is called at the completion of a given task.
 
 
-Output: ?
+* Promise
+-  A promise represents the eventual result of an asynchronous operation. It is a placeholder into which the successful result value or reason for failure will materialize.
+
+-Promise is resolved: Your mom really buy you a brand new phone.
+- Promise is rejected: You don't get a new phone because your mom is not happy.
 
 

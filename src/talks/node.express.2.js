@@ -14,10 +14,6 @@ app.route('/').get(function onRequest(req, res) {
 	res.render('index.ejs');
 });
 
-app.route('/*').get(function onRequest(req, res) {
-	res.render('index.ejs');
-});
-
 app.listen(8080, function() {
 	console.log('Express is Running and Listening on port 5000');
 });
