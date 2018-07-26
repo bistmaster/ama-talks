@@ -1,0 +1,32 @@
+<html>
+    <head>
+    <title>VueJS</title>
+    </head>
+<body>
+    <div id="app">
+        <h1>{{title}}</h1>
+        <input type="text" v-model="title" />
+        <button @click="greet">Greet</button>
+        <hr>
+        <br>
+        <ul>
+            <li v-for="(browser, $index) in browsers" :key="$index">
+                {{browser}} <button @click="remove($index)" type="button">Remove</button>
+            </li>
+        </ul>
+        <input type="text" v-model="textBrowser" />
+        <button @click="add" type="button">Add</button>
+        <hr>
+
+        <form>
+            <input type="text" v-model="user.firstname" placeholder="Firstname"><br/>
+            <input type="text" v-model="user.lastname" placeholder="Lastname"><br/>
+            <input type="text" v-model="user.nickname" placeholder="Nickname"><br/>
+            <button @click="save" type="button">Add</button>
+        </form>
+
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="app.js"></script>
+</html>
